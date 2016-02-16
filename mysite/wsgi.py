@@ -11,10 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
-
-# from http://stackoverflow.com/questions/31082884/why-is-whitenoise-crashing-in-a-default-django-project-on-heroku
-# application = get_wsgi_application()
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prompt.settings")
 
 from whitenoise.django import DjangoWhiteNoise
 
